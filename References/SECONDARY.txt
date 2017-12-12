@@ -1,7 +1,0 @@
-Regarding project structure
-https://en.wikipedia.org/wiki/Source_text
-https://de.wikipedia.org/wiki/Prim%C3%A4rquelle_und_Sekund%C3%A4rquelle
-
-Regarding project content
-https://en.wikipedia.org/wiki/Quality_(business)
-https://de.wikipedia.org/wiki/Qualit%C3%A4t
