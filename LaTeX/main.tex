@@ -1,0 +1,50 @@
+#########################
+##Currently a test file##
+#########################
+\title{Technical Quality}
+\author{
+        Chris Engel \\
+        Munich, Germany
+}
+##TODO##date needs to be checked
+#date in standard ISO-8601
+\usepackage{datetime}
+\newdateformat{specialdate}{\THEYEAR-\twodigit{\THEMONTH}-\twodigit{\THEDAY}}
+\date{\specialdate\today}
+#Alternative
+\date{\the\year-\ifnum\month<10\relax0\fi\the\month-\ifnum\day<10\relax0\fi\the\day}
+
+\documentclass[12pt]{article}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+This is the paper's abstract \ldots
+\end{abstract}
+
+\section{Introduction}
+This is time for all good men to come to the aid of their party!
+
+\paragraph{Outline}
+The remainder of this article is organized as follows.
+Section~\ref{previous work} gives account of previous work.
+Our new and exciting results are described in Section~\ref{results}.
+Finally, Section~\ref{conclusions} gives the conclusions.
+
+\section{Previous work}\label{previous work}
+A much longer \LaTeXe{} example.
+
+\section{Results}\label{results}
+In this section we describe the results.
+
+\section{Conclusions}\label{conclusions}
+We worked hard, and achieved very little.
+
+%Bibliography Style - how it looks like
+\bibliographystyle{apsrev.bst}
+%list the table of contents
+\bibliography{bibliography.bib}
+
+\end{document}
+This is never printed
